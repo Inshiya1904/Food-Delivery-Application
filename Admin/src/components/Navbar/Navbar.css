@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.nav .left-nav .logo{
+    font-size: 45px;
+    color: tomato;
+    font-weight: bolder;
+    
+   
+}
+.nav .left-nav h4{
+    text-align: start;
+    color: rgb(51, 51, 51);
+}
+.right-nav .profile{
+    width: 40px;
+}

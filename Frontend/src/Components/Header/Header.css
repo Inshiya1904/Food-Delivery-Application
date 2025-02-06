@@ -1,0 +1,122 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/header-img.jpg') ;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    
+}
+.header-content{
+    max-width: 800px;
+    padding-top: 100px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: fadeIn 6s ease-in-out;
+
+}
+.header-content h2{
+    font-size: 60px;
+    font-weight: 500;
+    
+}
+.header-content button{
+    border: none;
+    width: 120px;
+    border: 1px solid #49557e;
+    border-radius: 50px;
+    background: transparent;
+    padding: 8px 0;
+   font-size: 16px;
+   font-weight: 300;
+   transition: 0.5s;
+   cursor: pointer;
+   background-color: white;
+}
+.header-content button:hover{
+    background-color: #d8c3c0;
+    color: tomato;
+}
+
+@media (max-width:1050px) {
+    .header{
+        height: 45vw;
+    }
+    .header-content{
+        max-width: 600px;
+    }
+    .header-content h2{
+        font-size: 55px;
+        
+    }
+}
+@media (max-width:900px) {
+    .header{
+        height: 45vw;
+    }
+    .header-content{
+        max-width: 700px;
+    }
+    .header-content h2{
+        font-size: 50px;
+        
+    }
+}
+@media (max-width:800px) {
+    .header{
+        height: 50vw;
+    }
+    .header-content{
+        max-width: 600px;
+    }
+    .header-content h2{
+        font-size: 50px;
+        
+    }
+}
+@media(max-width:750px){
+    .header{
+        height: 50vw;
+    }
+    .header-content{
+        max-width: 600px;
+        
+    }
+    .header-content h2{
+        font-size: 40px;
+    }
+    
+    
+}
+@media(max-width:700px){
+    .header-content{
+        max-width: 600px;
+       
+    }
+    .header-content h2{
+        font-size: 30px;
+    }
+    .header-content p{
+        display: none;
+    }
+    
+}
+@media(max-width:500px){
+    .header-content{
+        max-width: 600px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .header-content h2{
+        font-size: 30px;
+    }
+    .header-content p{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,12 @@
+.read-single-item{
+    padding: 20px;
+    display: flex;
+    /* border: 1px solid gray; */
+    margin: 30px;
+    border-radius: 5px;
+    
+}
+.right-side{
+    margin-left: 20px;
+    width: 50%;
+}
